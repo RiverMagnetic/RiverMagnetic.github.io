@@ -7,7 +7,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  background-color: #99BD68;
+  background-color: #fff;
 }
 
 p {
@@ -120,7 +120,6 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  /* background-color: #99BD68; */
   background-color: #99BD68;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -233,13 +232,18 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.bg-1 {
+  background-color: rgba(154, 189, 104, 0.242);
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
 
-.bg-alt {
-  background-color: #CDD5B6;
+.bg-2 {
+  /* background-color: rgba(205, 213, 182, 0.345); */
+  background-color: rgba(154, 189, 104, 0.078);
 }
 
 #portfolio .portfolio-item {
@@ -588,6 +592,7 @@ header.masthead .intro-text .intro-heading {
 .skills-section {
   margin-bottom: 50px;
   text-align: center;
+  
 }
 
 .skills-section img {
@@ -597,13 +602,27 @@ header.masthead .intro-text .intro-heading {
 }
 
 .skills-section h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
+  margin-top: 2px;
+  margin-bottom: 20px;
   text-transform: none;
 }
 
 .skills-section p {
   margin-top: 0;
+}
+
+ ul.dev-icons {
+  margin-bottom: 0;
+ }
+
+ ul.dev-icons li {
+  font-size: 48px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: none;
 }
 
 section#contact {
@@ -667,6 +686,7 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #99BD68;
 }
 
 footer span.copyright {

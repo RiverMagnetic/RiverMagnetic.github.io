@@ -233,7 +233,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bg-1 {
-  background-color: rgba(154, 189, 104, 0.242);
+  background-color: rgba(154, 189, 104, 0.324);
 }
 
 .service-heading {
@@ -243,7 +243,7 @@ header.masthead .intro-text .intro-heading {
 
 .bg-2 {
   /* background-color: rgba(205, 213, 182, 0.345); */
-  background-color: rgba(154, 189, 104, 0.078);
+  background-color: rgba(154, 189, 104, 0.194);
 }
 
 #portfolio .portfolio-item {
@@ -686,7 +686,7 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 80px 0;
   text-align: center;
-  background-color: #99BD68;
+  background-color: rgba(154, 189, 104, 0.811);
 /*  color: #fff; */
 }
 

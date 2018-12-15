@@ -43,7 +43,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 section h3.section-subheading {
@@ -602,7 +602,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .skills-section h4 {
-  margin-top: 25px;
+  /* margin-top: 25px; */
   /* margin-bottom: 20px; */
   text-transform: none;
 }

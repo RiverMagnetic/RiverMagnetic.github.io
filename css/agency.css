@@ -246,6 +246,10 @@ header.masthead .intro-text .intro-heading {
   background-color: rgba(154, 189, 104, 0.194);
 }
 
+.about-img {
+  margin-bottom: 40px;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -328,8 +332,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  margin: 1rem auto;
+  max-width: 73vw;
 }
 
 .portfolio-modal .modal-content {
@@ -364,6 +368,12 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content button {
   cursor: pointer;
+  margin-top: 50px;
+}
+
+.project-modal-links {
+  padding-bottom: 35px;
+  border-bottom: 1px solid black;
 }
 
 .portfolio-modal .close-modal {

@@ -261,6 +261,8 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+  border: 1px solid;
+  border-color: #00000012;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -302,7 +304,9 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: rgb(243, 255, 243);
+  background-color: #ffffffe8;
+  border: 1px solid;
+  border-color: #0000002b;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -364,6 +368,8 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+  border: 1px solid;
+  border-color: #0000002b;
 }
 
 .portfolio-modal .modal-content button {
